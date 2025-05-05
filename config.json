@@ -3,7 +3,7 @@
       "test_url": "https://www.gstatic.com/generate_204",
       "log_level": "warning",
       "domain_strategy": "IPIFNonMatch",
-      "allow_insecure_tls": false,
+      "allow_insecure_tls": true,
       "sniffing_enabled": true,
       "inbound_ports": {
         "socks": 10808,

@@ -25,7 +25,7 @@ with open(CONF_PATH,"r") as file_client_set:
         f=json.load(file_client_set)
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
-LINK_PATH=[https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt] # [ "link1" , "link2" , ... ]
+LINK_PATH=[https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_iOS.txt]
 FIN_PATH="final.txt"
 FIN_CONF=[]
 CHECK_LOC=False
